@@ -15,6 +15,7 @@ A GitHub Action that performs static analysis for shell scripts using [ShellChec
 
 Shell Linter can perform static analysis in various ways. By default it scans all the ShellCheck-supported shell scripts (sh/bash/dash/ksh) in your project. However, you can use the `path` parameter to scan a specific file or folder or use the `exclude-paths` parameter to exclude files or folders from the scan. With Shell Linter, you can also specify the minimum severity of errors to consider using the `severity` parameter. Specific use cases along with examples are shown below:
 
+
 #### Run static analysis for all the supported shell scripts in your repository:
 ```yml
 jobs:
